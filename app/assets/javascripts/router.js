@@ -5,4 +5,5 @@ EmberWebsocket.Router.map(function () {
     this.route('index', { path: '/' });
   });
 
+  this.resource('users');
 });
